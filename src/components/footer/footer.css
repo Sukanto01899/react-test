@@ -1,0 +1,12 @@
+footer {
+  background-color: dimgray;
+}
+.footer-content {
+  width: 90%;
+  padding: 42px 0;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  color: white;
+}

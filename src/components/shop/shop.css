@@ -1,0 +1,31 @@
+.shop-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  margin-top: 60px;
+}
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 24px;
+  padding-top: 80px;
+}
+.cart-container {
+  position: fixed;
+  background-color: blanchedalmond;
+  padding: 12px;
+  width: 300px;
+  height: 500px;
+  right: 0;
+  top: 120px;
+  border-bottom-left-radius: 12px;
+  border-top-left-radius: 12px;
+}
+.cart-container h3 {
+  border-bottom: 2px solid black;
+  padding-bottom: 8px;
+}
+.cart-container p {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 8px 0;
+}

@@ -1,0 +1,84 @@
+form {
+  width: 450px;
+  background-color: white;
+  border: 2px solid gray;
+  margin: 100px auto;
+  border-radius: 8px;
+  padding: 40px;
+  position: relative;
+}
+form::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 450px;
+  height: 100%;
+  background-color: rgba(254, 201, 103, 0.967);
+  right: 12px;
+  border-radius: 8px;
+  top: 12px;
+}
+form h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+form input,
+.google-sign {
+  width: 100%;
+  border: 1px solid gray;
+  font-size: 18px;
+  padding: 5px 12px;
+  height: 50px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 8px;
+}
+form input[type="button"] {
+  margin-top: 20px;
+  background-color: rgba(255, 200, 97, 0.932);
+  border: none;
+  margin-bottom: unset;
+}
+form p {
+  text-align: center;
+  font-size: 18px;
+}
+form p small a {
+  color: orange;
+}
+.google-sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: unset;
+}
+.google-sign img {
+  width: 34px;
+  height: 34px;
+  margin-right: 8px;
+}
+.or-space {
+  align-items: center;
+  position: relative;
+  margin: 20px 0;
+}
+.or-space p::after {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 1px;
+  top: 50%;
+  left: 56%;
+  background-color: black;
+}
+.or-space p::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 1px;
+  top: 50%;
+  left: 11%;
+  background-color: black;
+}

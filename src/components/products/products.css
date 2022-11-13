@@ -1,0 +1,15 @@
+.product-cart {
+  border: 2px solid black;
+  padding: 12px;
+}
+.product-cart img {
+  width: 100%;
+}
+.product-cart button {
+  flex: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  bottom: 0;
+  height: 42px;
+}
